@@ -1,2 +1,3 @@
 # Cakewalk-Delay-Record
 Provides a small topmost window for delay of recording by seconds entered. Easy playback rewind or pause recording and play at current position
+NOTE: The PDF and other places mention that this program might work with other DAW. Nevertheless, the .exe included is specific as placing focus on the Cakewalk DAW. If you wish to use with another DAW, modify the include .ahk where both WinActivate and WinWait are being used. The dialog buttons are able to be tested without a DAW running. The main part of the code is within an infinite loop with a Sleep,100 so as not to consume the processor, espcially that DAWs and libraries thereof run heavy on processing. Cakewalk-Delay-Record should make very little difference on performance of the DAWs.
